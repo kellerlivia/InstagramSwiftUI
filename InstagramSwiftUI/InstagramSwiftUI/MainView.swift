@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @State var selection = 1
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView(selection: $selection,
+                content:  {
+            HomeView()
+                .tabItem {
+                    Image(selection == 1 ? "home-selected" : "home")
+                }.tag(1)
+            
+            NotificationView()
+                .tabItem {
+                    Image("add-button")
+                }.tag(2)
+            
+            ProfileView()
+                .tabItem {
+                    Image(selection == 3 ? "user-selected" : "user")
+                }.tag(3)
+        })
     }
 }
 
