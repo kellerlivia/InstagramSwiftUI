@@ -14,6 +14,10 @@
 		D7240B8E2BC18BD300DF1258 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7240B8D2BC18BD300DF1258 /* HomeView.swift */; };
 		D7A16E642BC1EFC6009C3B04 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E632BC1EFC6009C3B04 /* NotificationView.swift */; };
 		D7A16E672BC1F00A009C3B04 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E662BC1F00A009C3B04 /* ProfileView.swift */; };
+		D7A16E6A2BC1FD48009C3B04 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E692BC1FD48009C3B04 /* StoryView.swift */; };
+		D7A16E6D2BC1FE14009C3B04 /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E6C2BC1FE14009C3B04 /* StoryData.swift */; };
+		D7A16E702BC1FEE7009C3B04 /* StoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E6F2BC1FEE7009C3B04 /* StoryMock.swift */; };
+		D7A16E732BC3775C009C3B04 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E722BC3775C009C3B04 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		D7240B8D2BC18BD300DF1258 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D7A16E632BC1EFC6009C3B04 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		D7A16E662BC1F00A009C3B04 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D7A16E692BC1FD48009C3B04 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		D7A16E6C2BC1FE14009C3B04 /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
+		D7A16E6F2BC1FEE7009C3B04 /* StoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMock.swift; sourceTree = "<group>"; };
+		D7A16E722BC3775C009C3B04 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +65,13 @@
 		D7240B7D2BC1857800DF1258 /* InstagramSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D7240B802BC1857800DF1258 /* MainView.swift */,
+				D7A16E6B2BC1FDFC009C3B04 /* Model */,
+				D7A16E682BC1FD35009C3B04 /* StoryView */,
 				D7A16E652BC1F000009C3B04 /* ProfileView */,
 				D7A16E622BC1EFAD009C3B04 /* NotificationView */,
 				D7240B8C2BC18BC400DF1258 /* HomeView */,
 				D7240B7E2BC1857800DF1258 /* InstagramSwiftUIApp.swift */,
+				D7240B802BC1857800DF1258 /* MainView.swift */,
 				D7240B822BC1857A00DF1258 /* Assets.xcassets */,
 				D7240B842BC1857A00DF1258 /* Preview Content */,
 			);
@@ -79,6 +89,7 @@
 		D7240B8C2BC18BC400DF1258 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				D7A16E712BC3773A009C3B04 /* ViewModel */,
 				D7240B8D2BC18BD300DF1258 /* HomeView.swift */,
 			);
 			path = HomeView;
@@ -98,6 +109,39 @@
 				D7A16E662BC1F00A009C3B04 /* ProfileView.swift */,
 			);
 			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		D7A16E682BC1FD35009C3B04 /* StoryView */ = {
+			isa = PBXGroup;
+			children = (
+				D7A16E692BC1FD48009C3B04 /* StoryView.swift */,
+			);
+			path = StoryView;
+			sourceTree = "<group>";
+		};
+		D7A16E6B2BC1FDFC009C3B04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7A16E6E2BC1FEDC009C3B04 /* Mock */,
+				D7A16E6C2BC1FE14009C3B04 /* StoryData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7A16E6E2BC1FEDC009C3B04 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D7A16E6F2BC1FEE7009C3B04 /* StoryMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D7A16E712BC3773A009C3B04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7A16E722BC3775C009C3B04 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A16E6A2BC1FD48009C3B04 /* StoryView.swift in Sources */,
+				D7A16E732BC3775C009C3B04 /* HomeViewModel.swift in Sources */,
 				D7240B8E2BC18BD300DF1258 /* HomeView.swift in Sources */,
 				D7240B812BC1857800DF1258 /* MainView.swift in Sources */,
 				D7A16E672BC1F00A009C3B04 /* ProfileView.swift in Sources */,
+				D7A16E6D2BC1FE14009C3B04 /* StoryData.swift in Sources */,
+				D7A16E702BC1FEE7009C3B04 /* StoryMock.swift in Sources */,
 				D7240B7F2BC1857800DF1258 /* InstagramSwiftUIApp.swift in Sources */,
 				D7A16E642BC1EFC6009C3B04 /* NotificationView.swift in Sources */,
 			);
