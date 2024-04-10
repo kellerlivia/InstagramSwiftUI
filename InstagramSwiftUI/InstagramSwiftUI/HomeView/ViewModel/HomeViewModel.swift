@@ -5,6 +5,9 @@
 //  Created by Livia Keller on 07/04/24.
 //
 
+import SwiftUI
+
+@Observable
 class HomeViewModel {
     
     var storyList: [StoryData] = [
@@ -16,5 +19,11 @@ class HomeViewModel {
         StoryData(image: "tecna", name: "tecna", myStory: false),
         StoryData(image: "whatsapp", name: "whatsapp", myStory: false)
     ]
+    
+    var isMuted: Bool = true
 
+    var postList: [PostData] = [
+        PostData(profileImage: "livia", userName: "kellerlivia", postImage: "livia", isLiked: true, isSaved: false, caption: "desenvolvedora iOS", isVideo: false, videoURL: nil),
+        PostData(profileImage: "apple", userName: "apple", postImage: "", isLiked: false, isSaved: true, caption: "xcode mobile desenvolvimento iOS", isVideo: true, videoURL: "code")
+    ]
 }

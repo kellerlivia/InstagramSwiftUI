@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State var viewModel: HomeViewModel = HomeViewModel()
+    
     var body: some View {
-        
-        @State var viewModel: HomeViewModel = HomeViewModel()
-        
         NavigationStack {
             ZStack {
                 Color(red: 237/255, green: 237/255, blue: 237/255)
@@ -28,7 +28,13 @@ struct HomeView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 8))
                     .scrollIndicators(.hidden)
                     
-                    Spacer()
+                    ScrollView(.vertical) {
+                        LazyVStack {
+                            ForEach($viewModel.postList) { post in
+                                PostView(post: post, isMuted: $viewModel.isMuted)
+                            }
+                        }
+                    }
                 }
                 .padding()
             }
