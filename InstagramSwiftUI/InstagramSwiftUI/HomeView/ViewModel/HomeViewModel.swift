@@ -23,7 +23,7 @@ class HomeViewModel {
     var isMuted: Bool = true
 
     var postList: [PostData] = [
-        PostData(profileImage: "livia", userName: "kellerlivia", postImage: "livia", isLiked: true, isSaved: false, caption: "desenvolvedora iOS", isVideo: false, videoURL: nil),
+        PostData(profileImage: "apple", userName: "apple", postImage: "apple", isLiked: true, isSaved: false, caption: "iOS is better", isVideo: false, videoURL: nil),
         PostData(profileImage: "apple", userName: "apple", postImage: "", isLiked: false, isSaved: true, caption: "xcode mobile desenvolvimento iOS", isVideo: true, videoURL: "code")
     ]
 }

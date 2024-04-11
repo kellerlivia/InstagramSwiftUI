@@ -28,7 +28,7 @@ struct HomeView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 8))
                     .scrollIndicators(.hidden)
                     
-                    ScrollView(.vertical) {
+                    ScrollView(.vertical, showsIndicators: false) {
                         LazyVStack {
                             ForEach($viewModel.postList) { post in
                                 PostView(post: post, isMuted: $viewModel.isMuted)

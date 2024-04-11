@@ -17,6 +17,14 @@
 		D778BA582BC6F8F7008C3F20 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA572BC6F8F7008C3F20 /* ActivityView.swift */; };
 		D778BA5A2BC6F9B9008C3F20 /* ActivityMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA592BC6F9B9008C3F20 /* ActivityMock.swift */; };
 		D778BA5D2BC759D3008C3F20 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA5C2BC759D3008C3F20 /* NotificationViewModel.swift */; };
+		D778BA5F2BC7628A008C3F20 /* HighligthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA5E2BC7628A008C3F20 /* HighligthData.swift */; };
+		D778BA612BC762DC008C3F20 /* ProfilePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA602BC762DC008C3F20 /* ProfilePost.swift */; };
+		D778BA632BC7635B008C3F20 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA622BC7635B008C3F20 /* ProfileViewModel.swift */; };
+		D778BA652BC76495008C3F20 /* HighlightMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA642BC76495008C3F20 /* HighlightMock.swift */; };
+		D778BA672BC764E6008C3F20 /* ProfilePostMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA662BC764E6008C3F20 /* ProfilePostMock.swift */; };
+		D778BA6A2BC76763008C3F20 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA692BC76763008C3F20 /* UserProfileView.swift */; };
+		D778BA6D2BC76DC2008C3F20 /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA6C2BC76DC2008C3F20 /* HighlightView.swift */; };
+		D778BA702BC77363008C3F20 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D778BA6F2BC77363008C3F20 /* PostGridView.swift */; };
 		D7A16E642BC1EFC6009C3B04 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E632BC1EFC6009C3B04 /* NotificationView.swift */; };
 		D7A16E672BC1F00A009C3B04 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E662BC1F00A009C3B04 /* ProfileView.swift */; };
 		D7A16E6A2BC1FD48009C3B04 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A16E692BC1FD48009C3B04 /* StoryView.swift */; };
@@ -42,6 +50,14 @@
 		D778BA572BC6F8F7008C3F20 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		D778BA592BC6F9B9008C3F20 /* ActivityMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityMock.swift; sourceTree = "<group>"; };
 		D778BA5C2BC759D3008C3F20 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		D778BA5E2BC7628A008C3F20 /* HighligthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighligthData.swift; sourceTree = "<group>"; };
+		D778BA602BC762DC008C3F20 /* ProfilePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePost.swift; sourceTree = "<group>"; };
+		D778BA622BC7635B008C3F20 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D778BA642BC76495008C3F20 /* HighlightMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightMock.swift; sourceTree = "<group>"; };
+		D778BA662BC764E6008C3F20 /* ProfilePostMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostMock.swift; sourceTree = "<group>"; };
+		D778BA692BC76763008C3F20 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		D778BA6C2BC76DC2008C3F20 /* HighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
+		D778BA6F2BC77363008C3F20 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		D7A16E632BC1EFC6009C3B04 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		D7A16E662BC1F00A009C3B04 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D7A16E692BC1FD48009C3B04 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
@@ -85,6 +101,9 @@
 		D7240B7D2BC1857800DF1258 /* InstagramSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D778BA6E2BC77352008C3F20 /* PostGridView */,
+				D778BA6B2BC76DB4008C3F20 /* HighlightView */,
+				D778BA682BC7674E008C3F20 /* UserProfileView */,
 				D778BA562BC6F8EA008C3F20 /* ActivityView */,
 				D7A16E802BC606AB009C3B04 /* Video */,
 				D7A16E7B2BC4E83D009C3B04 /* CustomVideoView */,
@@ -135,6 +154,30 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		D778BA682BC7674E008C3F20 /* UserProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				D778BA692BC76763008C3F20 /* UserProfileView.swift */,
+			);
+			path = UserProfileView;
+			sourceTree = "<group>";
+		};
+		D778BA6B2BC76DB4008C3F20 /* HighlightView */ = {
+			isa = PBXGroup;
+			children = (
+				D778BA6C2BC76DC2008C3F20 /* HighlightView.swift */,
+			);
+			path = HighlightView;
+			sourceTree = "<group>";
+		};
+		D778BA6E2BC77352008C3F20 /* PostGridView */ = {
+			isa = PBXGroup;
+			children = (
+				D778BA6F2BC77363008C3F20 /* PostGridView.swift */,
+			);
+			path = PostGridView;
+			sourceTree = "<group>";
+		};
 		D7A16E622BC1EFAD009C3B04 /* NotificationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				D7A16E662BC1F00A009C3B04 /* ProfileView.swift */,
+				D778BA622BC7635B008C3F20 /* ProfileViewModel.swift */,
 			);
 			path = ProfileView;
 			sourceTree = "<group>";
@@ -168,6 +212,8 @@
 				D7A16E772BC4CD9E009C3B04 /* PostData.swift */,
 				D778BA522BC6F420008C3F20 /* Activity.swift */,
 				D778BA542BC6F553008C3F20 /* User.swift */,
+				D778BA5E2BC7628A008C3F20 /* HighligthData.swift */,
+				D778BA602BC762DC008C3F20 /* ProfilePost.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +224,8 @@
 				D7A16E6F2BC1FEE7009C3B04 /* StoryMock.swift */,
 				D7A16E792BC4CE9F009C3B04 /* PostMock.swift */,
 				D778BA592BC6F9B9008C3F20 /* ActivityMock.swift */,
+				D778BA642BC76495008C3F20 /* HighlightMock.swift */,
+				D778BA662BC764E6008C3F20 /* ProfilePostMock.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -287,21 +335,29 @@
 			files = (
 				D7A16E6A2BC1FD48009C3B04 /* StoryView.swift in Sources */,
 				D7A16E7A2BC4CE9F009C3B04 /* PostMock.swift in Sources */,
+				D778BA652BC76495008C3F20 /* HighlightMock.swift in Sources */,
 				D7A16E732BC3775C009C3B04 /* HomeViewModel.swift in Sources */,
 				D7240B8E2BC18BD300DF1258 /* HomeView.swift in Sources */,
 				D7240B812BC1857800DF1258 /* MainView.swift in Sources */,
+				D778BA702BC77363008C3F20 /* PostGridView.swift in Sources */,
 				D778BA5D2BC759D3008C3F20 /* NotificationViewModel.swift in Sources */,
+				D778BA6D2BC76DC2008C3F20 /* HighlightView.swift in Sources */,
+				D778BA632BC7635B008C3F20 /* ProfileViewModel.swift in Sources */,
 				D778BA582BC6F8F7008C3F20 /* ActivityView.swift in Sources */,
 				D7A16E672BC1F00A009C3B04 /* ProfileView.swift in Sources */,
 				D7A16E6D2BC1FE14009C3B04 /* StoryData.swift in Sources */,
+				D778BA672BC764E6008C3F20 /* ProfilePostMock.swift in Sources */,
 				D778BA5A2BC6F9B9008C3F20 /* ActivityMock.swift in Sources */,
 				D7A16E702BC1FEE7009C3B04 /* StoryMock.swift in Sources */,
 				D778BA552BC6F553008C3F20 /* User.swift in Sources */,
 				D778BA532BC6F420008C3F20 /* Activity.swift in Sources */,
 				D7240B7F2BC1857800DF1258 /* InstagramSwiftUIApp.swift in Sources */,
 				D7A16E762BC4CD13009C3B04 /* PostView.swift in Sources */,
+				D778BA612BC762DC008C3F20 /* ProfilePost.swift in Sources */,
+				D778BA6A2BC76763008C3F20 /* UserProfileView.swift in Sources */,
 				D7A16E782BC4CD9E009C3B04 /* PostData.swift in Sources */,
 				D7A16E7D2BC4E864009C3B04 /* CustomVideoView.swift in Sources */,
+				D778BA5F2BC7628A008C3F20 /* HighligthData.swift in Sources */,
 				D7A16E642BC1EFC6009C3B04 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

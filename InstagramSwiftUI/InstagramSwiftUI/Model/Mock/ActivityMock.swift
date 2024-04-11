@@ -15,14 +15,14 @@ var ActivityMock: [Activity] = [
                 User(userName: "palmeiras", userImage: "palmeiras"),
                 User(userName: "tecna", userImage: "tecna")
              ],
-             postImage: "livia"),
+             postImage: "whatsapp"),
     
     Activity(activaty: .comment,
              duration: "50m",
              usersInContext: [
                 User(userName: "apple", userImage: "apple")
              ],
-             postImage: "livia",
+             postImage: "whatsapp",
              comment: "uauuuuuuu!!"),
     
     Activity(activaty: .suggestFollower,
